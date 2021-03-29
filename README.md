@@ -123,10 +123,18 @@ ___
 |http는 자동으로 삽입 가능|www.markdownguide.org/extended-syntax/|
 |도메인 이후 문자 삽입 가능|Visit www.google.co.kr for more information.|
 |후행 구두점은 자동 링크의 일부로 간주 X | Visit www.google.co.kr.|
-|자동 링크가 ')'로 끝날 때 <br>전체 링크에서 일치하지 않는 괄호 부분을 간주 X|  www.google.com/search?q=Markup+(business)<br>www.google.com/search?q=Markup+(business)))<br>(www.google.com/search?q=Markup+(business))<br>(www.google.com/search?q=Markup+(business)|
+|자동 링크가 ')'로 끝날 때 <br>전체 링크에서 일치하지 않는 괄호 부분을 자동링크로 간주 X|  www.google.com/search?q=Markup+(business)<br>www.google.com/search?q=Markup+(business)))<br>(www.google.com/search?q=Markup+(business))<br>(www.google.com/search?q=Markup+(business)|
 |자동 링크 내부에 괄호가 있는 경우 위의 규칙 적용 X|www.google.com/search?q=(business))+ok|
 |'<'는 자동링크 즉시 종료|www.commonmark.org/he<lp|
 
 <br>
 
 ### 4.1 Email
+텍스트 노드 내에서 이메일 주소가 인식되면 이메일이 자동링크가 된다.
+- **인식조건**
+```
+  -  영숫자 또는 '., -, _, +'인 하나 이상의 문자
+  -  '@' 기호
+  -  적어도 하나의 마침표(.)가 있어야 한다. 
+  -  마지막 문자는 '-' 또는 '_' 중 하나로 끝나면 안된다  -  마지막 문자는 '-' 또는 '_' 중 하나로 끝나면 안된다.
+```
