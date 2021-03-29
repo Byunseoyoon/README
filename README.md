@@ -167,19 +167,19 @@ GFM은 태그 필터 확장을 활성화하며, 여기서 HTML 출력을 렌더�
 - <plaintext>
 ```
 
-- **input**
+- **example**
 ```
-&lt;strong> &lt;title> &lt;style> <em>
+<strong> &lt;title> <style> <em>
 
-&lt;blockquote>
+<blockquote>
+  <xmp> is disallowed.  <XMP> is also disallowed.
+</blockquote>
+```
+위의 리스트에 있는 '<'만 HTML 출력을 렌더링할 때 '\&tl;'로 필터링 된다.
+```
+<p><strong> &lt;title> &lt;style> <em></p>
+<blockquote>
   &lt;xmp> is disallowed.  &lt;XMP> is also disallowed.
 </blockquote>
 ```
-
-- **output**<br>
-&lt;strong> &lt;title> &lt;style> <em>
-
-&lt;blockquote>
-  &lt;xmp> is disallowed.  &lt;XMP> is also disallowed.
-</blockquote>
-
+> 위의 태그들 이외의 다른 모든 HTML태그들은 그대로 유지된다.
