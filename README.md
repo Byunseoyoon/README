@@ -103,6 +103,16 @@ ___
 
 |작성방법|Example|
 |--|:--|
-|\~\~안녕~~ github|~~안녕~~ github|
+|\~\~gihub~~ markdown|~~gihub~~ markdown|
 
 >*참고:~~ 강조 구문 내에서 엔터 두 번으로 단락이 새로 생성되면 취소선이 사라진다.*
+
+<br>
+
+___
+## 4. Autolinks
+꺽새 없이 자동링크를 달 수 있다.
+
+|설명|작성방법|Example|
+|--|--|:--|
+|http는 자동으로 삽입|www.markdownguide.org/extended-syntax/
