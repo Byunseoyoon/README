@@ -1,6 +1,6 @@
 # Github Flavered Markdown
 GFM 확장된 파트
-
+___
 ## **1. Tables**
 파이프 라인(|)을 이용해 테이블을 만들 수 있다.
 - 작성방법
