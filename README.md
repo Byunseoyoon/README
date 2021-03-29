@@ -121,6 +121,210 @@ ___
 |도메인 이후 문자 삽입 가능|Visit www.google.co.kr for more information.|
 |후행 구두점은 자동 링크의 일부로 간주 x | Visit www.google.co.kr.|
 |괄호 안에 자동 링크를 포함하기 위해<br>전체 자동 링크의 일치하지 않는 괄호 부분을 간주 X|  www.google.com/search?q=Markup+(business)<br>www.google.com/search?q=Markup+(business)))<br>(www.google.com/search?q=Markup+(business))<br>(www.google.com/search?q=Markup+(business)|
-|자동 링크 내부에 괄호만 있는 경우 다음과 같은 특별한 규칙이 적용 X|www.google.com/search?q=(business))+ok|
+ | -----------:
+
+74
+
+bar | baz
+
+75
+
+
+
+76
+
+<br>
+
+77
+
+
+
+78
+
+___
+
+79
+
+## 2. Task List
+
+80
+
+업무 리스트와 체크 여부를 만들 수 있다.
+
+81
+
+
+
+82
+
+- **작성방법**<br>
+
+83
+
+하이픈(-) 이후에 대괄호를 쓰고 그 안을 공백 or x로 채운 뒤 할 일을 작성한다.
+
+84
+
+```
+
+85
+
+- [ ] 끝내주게 숨쉬기
+
+86
+
+- [x] 고급지게 잠자기
+
+87
+
+   - [x] 배터지게 밥먹기
+
+88
+
+```
+
+89
+
+
+
+90
+
+- ***example***
+
+91
+
+
+
+92
+
+- [ ] 끝내주게 숨쉬기
+
+93
+
+- [x] 고급지게 잠자기
+
+94
+
+   - [x] 배터지게 밥먹기
+
+95
+
+
+
+96
+
+>*참고 : 들여쓰기를 통해 다중 업무 리스트도 만들 수 있다.*
+
+97
+
+
+
+98
+
+<br>
+
+99
+
+
+
+100
+
+___
+
+101
+
+## 3. Strikethrough
+
+102
+
+물결표시(~)를 이용해 취소선을 만들 수 있다. 
+
+103
+
+
+
+104
+
+|작성방법|Example|
+
+105
+
+|--|:--|
+
+106
+
+|\~\~gihub~~ markdown|~~gihub~~ markdown|
+
+107
+
+
+
+108
+
+>*참고 :~~ 강조 구문 내에서 엔터 두 번으로 단락이 새로 생성되면 취소선이 사라진다.*
+
+109
+
+
+
+110
+
+<br>
+
+111
+
+
+
+112
+
+___
+
+113
+
+## 4. Autolinks
+
+114
+
+꺽새 없이 자동링크를 달 수 있다.<br>
+
+115
+
+자동 링크는 선의 시작 부분, 공백 뒤 또는 구분자(\*, \_, \~, \))에만 사용할 수 있다.<br>
+
+116
+
+**유효한 도메인은 영숫자 세그먼트, 밑줄(\_) 및 하이픈(\-), 마침표(.)로 구성되어 있다.( 마침표(.)는 하나 이상 있어야 함 )**
+
+117
+
+
+
+118
+
+|설명|Example|
+
+119
+
+|--|:--|
+
+120
+
+|http는 자동으로 삽입|www.markdownguide.org/extended-syntax/|
+
+121
+
+|도메인 이후 문자 삽입 가능|Visit www.google.co.kr for more information.|
+
+122
+
+|후행 구두점은 자동 링크의 일부로 간주 x | Visit www.google.co.kr.|
+
+123
+
+|자동 링크가 ')'로 끝난다면 <br>전체 링크에서 일치하지 않는 괄호 부분을 간주 X|  www.google.com/search?q=Markup+(business)<br>www.google.com/search?q=Markup+(business)))<br>(www.google.com/search?q=Markup+(business))<br>(www.google.com/search?q=Markup+(business)|
+
+124
+
+|자동 링크 내부에 괄호가|자동 링크 내부에 괄호가 있는 경우 위의 규칙 적용 X|www.google.com/search?q=(business))+ok|
 |세미콜론(;)으로 끝나는 경우 전체 참조와 유사 or<br>이전 텍스트가 하나 이상의 영숫자 뒤에 있다면 자동링크에서 제외|www.google.com/search?q=commonmark&hl=en<br>www.google.com/search?q=commonmark&hl;|
 
