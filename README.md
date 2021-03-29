@@ -67,6 +67,7 @@
 bar | baz
 ```
 - ***example***
+
 | abc | defghi |
 :-: | -----------:
 bar | baz
