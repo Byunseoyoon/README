@@ -146,5 +146,5 @@ bsy4943@naver.com
 
 |설명|Example|
 |--|:--|
-|+는 @ 앞에 올 수 있지만, 그 후에 올 수 없다.| hello@mail+xyz.example<br>hello+xyz@mail.example|
-|'., -,\_'는 @의 양쪽에서 사용할 수 있지만, '.'만 전자 메일 주소 끝에 사용할 수 있다.| 
+|'+'는 @ 앞에 올 수 있지만, @ 후에 올 수 없다.| hello@mail+xyz.example<br>hello+xyz@mail.example|
+|'마침표(.), 하이픈(-), 언더바(\_)'는 @의 양쪽에서 사용할 수 있으나,<br> 전자 메일 주소 끝에는 '마침표(.)'만 사용할 수 있다.| a.b-c_d@a.b<br>a.b-c_d@a.b.<br>a.b-c_d@a.b-<br>a.b-c_d@a.b_|
