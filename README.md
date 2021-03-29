@@ -153,7 +153,7 @@ bsy4943@naver.com
 
 ___
 ## 5. Disallowed Raw HTML
-GFM은 태그 필터 확장을 활성화하며, 여기서 HTML 출력을 렌더링할 때 다음 HTML 태그가 필터링됩니다.
+GFM은 태그 필터 확장을 활성화하며, 여기서 HTML 출력을 렌더링할 때 아래 HTML 태그가 필터링이 된다.
 - **tagfilter**
 ```
 - <title>
@@ -171,5 +171,5 @@ GFM은 태그 필터 확장을 활성화하며, 여기서 HTML 출력을 렌더�
 <strong> <title> <style> <em>
 
 <blockquote>
-  <xmp> is disallowed.  <XMP> is also disallowed.
+  &lt;xmp> is disallowed.  &lt;XMP> is also disallowed.
 </blockquote>
