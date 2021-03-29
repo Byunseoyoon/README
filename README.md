@@ -17,7 +17,7 @@ ___
 |홍길동|20|남|
 |James|21|여|
 
->*warning: 똑같이 내부에서 2번 이상의 띄어쓰기는 무시된다.*<br>
+>*warning : 똑같이 내부에서 2번 이상의 띄어쓰기는 무시된다.*<br>
        *구분자 행 이후 아무것도 써있지 않으면 body가 없는 테이블이 만들어진다.*<br>
        *테이블 이후에 다른 블록과 구분하지 않고 markdown 코드를 쓰면 테이블이 무너진다*
 
@@ -93,7 +93,7 @@ ___
 - [x] 고급지게 잠자기
    - [x] 배터지게 밥먹기
 
->*참고: 들여쓰기를 통해 다중 업무 리스트도 만들 수 있다.*
+>*참고 : 들여쓰기를 통해 다중 업무 리스트도 만들 수 있다.*
 
 <br>
 
@@ -105,7 +105,7 @@ ___
 |--|:--|
 |\~\~gihub~~ markdown|~~gihub~~ markdown|
 
->*참고:~~ 강조 구문 내에서 엔터 두 번으로 단락이 새로 생성되면 취소선이 사라진다.*
+>*참고 :~~ 강조 구문 내에서 엔터 두 번으로 단락이 새로 생성되면 취소선이 사라진다.*
 
 <br>
 
@@ -120,6 +120,7 @@ ___
 |http는 자동으로 삽입|www.markdownguide.org/extended-syntax/|
 |도메인 이후 문자 삽입 가능|Visit www.google.co.kr for more information.|
 |후행 구두점은 자동 링크의 일부로 간주 x | Visit www.google.co.kr.|
-|괄호 안에 자동 링크를 포함하기 위해<br>전체 자동 링크의 일치하지 않는 괄호 부분을 간주 x|  www.google.com/search?q=Markup+(business)<br>www.google.com/search?q=Markup+(business)))<br>(www.google.com/search?q=Markup+(business))<br>(www.google.com/search?q=Markup+(business)|
-
+|괄호 안에 자동 링크를 포함하기 위해<br>전체 자동 링크의 일치하지 않는 괄호 부분을 간주 X|  www.google.com/search?q=Markup+(business)<br>www.google.com/search?q=Markup+(business)))<br>(www.google.com/search?q=Markup+(business))<br>(www.google.com/search?q=Markup+(business)|
+|자동 링크 내부에 괄호만 있는 경우 다음과 같은 특별한 규칙이 적용 X|www.google.com/search?q=(business))+ok|
+|세미콜론(;)으로 끝나는 경우 전체 참조와 유사 or<br>이전 텍스트가 하나 이상의 영숫자 뒤에 있다면 자동링크에서 제외|www.google.com/search?q=commonmark&hl=en<br>www.google.com/search?q=commonmark&hl;|
 
