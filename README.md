@@ -120,5 +120,5 @@ ___
 |http는 자동으로 삽입|www.markdownguide.org/extended-syntax/|
 |도메인 이후 문자 삽입 가능|Visit www.google.co.kr for more information.|
 |후행 구두점은 자동 링크의 일부로 간주 x | Visit www.google.co.kr.|
-|(괄호 안에 자동 링크를 포함하기 위해) 전체 자동 링크에서 괄호 총 수를 검색한뒤 자동 링크의 일치하지 않는 괄호 부분을 간주 x|  www.google.com/search?q=Markup+(business)<br>www.google.com/search?q=Markup+(business)))<br>(www.google.com/search?q=Markup+(business)|
+|(괄호 안에 자동 링크를 포함하기 위해) 전체 자동 링크에서 괄호 총 수를 검색한뒤<br> 자동 링크의 일치하지 않는 괄호 부분을 간주 x|  www.google.com/search?q=Markup+(business)<br>www.google.com/search?q=Markup+(business)))<br>(www.google.com/search?q=Markup+(business)|
 
