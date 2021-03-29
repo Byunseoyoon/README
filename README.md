@@ -176,7 +176,7 @@ GFM은 태그 필터 확장을 활성화하며, 여기서 HTML 출력을 렌더�
   <xmp> is disallowed.  <XMP> is also disallowed.
 </blockquote>
 ```
-위의 리스트에 있는 '<'만 HTML 출력을 렌더링할 때 '\&tl;'로 필터링 된다.
+위의 리스트에 있는 '<'만 HTML 출력을 렌더링할 때 '\&tl;'로 필터링 된다.(위의 태그들 이외의 다른 모든 HTML태그들은 그대로 유지됨)
 ```
 <p><strong> &lt;title> &lt;style> <em></p>
 <blockquote>
@@ -185,4 +185,3 @@ GFM은 태그 필터 확장을 활성화하며, 여기서 HTML 출력을 렌더�
 ```
 > 이러한 태그들은 특히 HTML이 고유의 방식으로 해석되는 방법을 변경할 때 선택된다(즉, 중첩된 HTML은 다르게 해석됨).<br>
 > 일반적으로 다른 렌더링된 Markdown 컨텐츠의 맥락에서 바람직하지 않다.<br>
-위의 태그들 이외의 다른 모든 HTML태그들은 그대로 유지된다.
