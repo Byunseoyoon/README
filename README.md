@@ -111,10 +111,11 @@ ___
 
 ___
 ## 4. Autolinks
-꺽새 없이 자동링크를 달 수 있다.
+꺽새 없이 자동링크를 달 수 있다.<br>
+자동 링크는 선의 시작 부분, 공백 뒤 또는 구분자(\*, \_, \~, \))에만 사용할 수 있다.<br>
+유효한 도메인은 영숫자 세그먼트, 밑줄(\_) 및 하이픈(\-), 마침표(.)로 구성( 마침표(.)는 하나 이상 있어야 함 )
 
-|설명|작성방법|Example|
-|--|--|:--|
-|http는 자동으로 삽입|\www.markdownguide.org/extended-syntax/
-|도메인 이후 문자 삽입 가능|Visit 
-Google www.google.co.kr for more information.
+|설명|Example|
+|--|:--|
+|http는 자동으로 삽입|www.markdownguide.org/extended-syntax/|
+|도메인 이후 문자 삽입 가능|Visit www.google.co.kr for more information.|
