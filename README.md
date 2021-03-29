@@ -177,10 +177,9 @@ GFM은 태그 필터 확장을 활성화하며, 여기서 HTML 출력을 렌더�
 ```
 
 - **output**
-```
-<strong> <title> <style> <em>
+&lt;strong> &lt;title> &lt;style> <em>
 
 <blockquote>
   &lt;xmp> is disallowed.  &lt;XMP> is also disallowed.
 </blockquote>
-```
+
