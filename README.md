@@ -116,3 +116,5 @@ ___
 |설명|작성방법|Example|
 |--|--|:--|
 |http는 자동으로 삽입|www.markdownguide.org/extended-syntax/
+|도메인 이후 문자 삽입 가능|Visit 
+Google www.google.co.kr for more information.
