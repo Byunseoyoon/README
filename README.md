@@ -114,14 +114,19 @@ ___
 꺽새 없이 자동링크를 달 수 있다.<br>
 자동 링크는 선의 시작 부분, 공백 뒤 또는 구분자(\*, \_, \~, \))에만 사용할 수 있다.<br>
 **유효한 도메인은 영숫자 세그먼트, 밑줄(\_) 및 하이픈(\-), 마침표(.)로 구성되어 있다.( 마침표(.)는 하나 이상 있어야 함 )**
+
+## 4.1 URL
 - **참고사항**
 
 |설명|Example|
 |--|:--|
-|http는 자동으로 삽입|www.markdownguide.org/extended-syntax/|
+|http는 자동으로 삽입 가능|www.markdownguide.org/extended-syntax/|
 |도메인 이후 문자 삽입 가능|Visit www.google.co.kr for more information.|
 |후행 구두점은 자동 링크의 일부로 간주 X | Visit www.google.co.kr.|
 |자동 링크가 ')'로 끝날 때 <br>전체 링크에서 일치하지 않는 괄호 부분을 간주 X|  www.google.com/search?q=Markup+(business)<br>www.google.com/search?q=Markup+(business)))<br>(www.google.com/search?q=Markup+(business))<br>(www.google.com/search?q=Markup+(business)|
 |자동 링크 내부에 괄호가 있는 경우 위의 규칙 적용 X|www.google.com/search?q=(business))+ok|
 |'<'는 자동링크 즉시 종료|www.commonmark.org/he<lp|
 
+<br>
+
+### 4.1 Email
